@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <ItemGroup>
+    <ClInclude Include="bypass\Barricade.h">
+      <Filter>bypass</Filter>
+    </ClInclude>
+    <ClInclude Include="bypass\Bypass.h">
+      <Filter>bypass</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h" />
+    <ClInclude Include="ConfigRegistry.h" />
+    <ClInclude Include="detection\DpcScanner.h">
+      <Filter>detection</Filter>
+    </ClInclude>
+    <ClInclude Include="detection\DpcState.h">
+      <Filter>detection</Filter>
+    </ClInclude>
+    <ClInclude Include="detection\InterruptScanner.h">
+      <Filter>detection</Filter>
+    </ClInclude>
+    <ClInclude Include="detection\InterruptState.h">
+      <Filter>detection</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\Kernel.h">
+      <Filter>kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\KernelState.h">
+      <Filter>kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.h" />
+    <ClInclude Include="PgTypes.h" />
+    <ClInclude Include="Report.h" />
+    <ClInclude Include="trigger\PgTrigger.h">
+      <Filter>trigger</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="bypass\Barricade.c">
+      <Filter>bypass</Filter>
+    </ClCompile>
+    <ClCompile Include="bypass\Bypass.c">
+      <Filter>bypass</Filter>
+    </ClCompile>
+    <ClCompile Include="bypass\DpcBypass.c">
+      <Filter>bypass</Filter>
+    </ClCompile>
+    <ClCompile Include="bypass\InterruptBypass.c">
+      <Filter>bypass</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.c" />
+    <ClCompile Include="ConfigRegistry.c" />
+    <ClCompile Include="detection\DpcScanner.c">
+      <Filter>detection</Filter>
+    </ClCompile>
+    <ClCompile Include="detection\InterruptScanner.c">
+      <Filter>detection</Filter>
+    </ClCompile>
+    <ClCompile Include="Driver.c" />
+    <ClCompile Include="kernel\Kernel.c">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\KernelImage.c">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\KernelMemory.c">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\KernelThreads.c">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="Report.c" />
+    <ClCompile Include="ReportState.c" />
+    <ClCompile Include="trigger\PgTrigger.c">
+      <Filter>trigger</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="kernel" />
+    <Filter Include="detection" />
+    <Filter Include="bypass" />
+    <Filter Include="trigger" />
+  </ItemGroup>
+</Project>

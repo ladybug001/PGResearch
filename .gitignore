@@ -1,0 +1,27 @@
+# Visual Studio / WDK build artifacts
+.vs/
+*.vcxproj.user
+*.suo
+*.user
+
+# Build outputs and intermediate files
+x64/
+Debug/
+Release/
+*.obj
+*.pdb
+*.sys
+*.cer
+*.ilk
+*.iobj
+*.ipdb
+*.tlog
+*.lastbuildstate
+*.recipe
+*.log
+*.tmp
+
+# OS junk
+[Dd]esktop.ini
+Thumbs.db
+.DS_Store
